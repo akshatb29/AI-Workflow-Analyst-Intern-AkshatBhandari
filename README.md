@@ -141,53 +141,14 @@ This injects synthetic examples like:
 "We want to stock your products in our retail chain"
 ```
 
-And checks whether the pipeline discovers a new “Partnership / B2B” intent.
+And checks whether the pipeline discovers a new **“Partnership / B2B”** intent.
 
 ---
 
-## 🏗️ High-Level Workflow Diagram
 
-```mermaid
-flowchart TD
-    A[Load Dataset] --> B[Clean Text & Merge Conversation Context]
-    B --> C[Generate Embeddings<br/>SentenceTransformers]
-    C --> D[Cluster Messages<br/>HDBSCAN / Agglomerative]
-    D --> E[Sample Representatives]
-    E --> F[LLM Analyst (Gemini)<br/>Intent Discovery]
-    F --> G[Generate Reports<br/>JSON + CSV + MD]
-    G --> H[Validation<br/>Silhouette, Coverage]
-    H --> I[Updated Taxonomy<br/>updated_intent_map.json]
-```
 
----
 
-## ✔️ Features
 
-* ✓ Fully unsupervised theme discovery
-* ✓ LLM reasoning for high-quality intent proposals
-* ✓ Detection of missing & overly broad intents
-* ✓ Clustering quality metrics
-* ✓ Confidence distribution analysis
-* ✓ Out-of-scope detection
-* ✓ Synthetic injection test for robustness
-* ✓ PM-ready audit logs
 
----
-
-## ❓ Need More?
-
-Ask for:
-
-* A PDF version
-* A PPT deck
-* An architecture diagram
-* An interview-ready summary
-
-Happy to generate any!
-
-```
-
----
-
-Let me know if you want me to **auto-generate the PDF or PPT version** too.
+If you want, I can **auto-generate the PDF or PPT from this README** — just tell me **"Create PDF"** or **"Create PPT"**.
 ```
