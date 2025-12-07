@@ -113,13 +113,14 @@ And verifies whether the pipeline discovers a new intents.
 
 After running the pipeline, you'll find these files:
 
-## 1)final_intent_report.md: A detailed report explaining the new intents, reasoning, and representative user samples.
+ 1)**final_intent_report.md**: A detailed report explaining the new intents, reasoning, and representative user samples.
 
-## 2)intent_audit_log.csv: A structured CSV list of all proposed changes for Product Manager review.
+ 2)**intent_audit_log.csv**: A structured CSV list of all proposed changes for Product Manager review.
 
-## 3)updated_intent_map.json: A production-ready JSON file with the new intents injected into the original taxonomy.
+ 3)**updated_intent_map.json**: A production-ready JSON file with the new intents injected into the original taxonomy.
 
-## 4)cluster_output.json: Intermediate data showing the raw clusters and samples.
+ 4)**cluster_output.json**: Intermediate data showing the raw clusters and samples.
+ 
 ---
 
 ## 🧪 Validation & Testing
